@@ -16,7 +16,7 @@
     {% if entry %}
       <input type="hidden" name="key" value="{{ str(entry.key()) }}"/>
     {% end %}
-    {{ xsrf_form_html() }}
+    {% raw xsrf_form_html() %}
   </form>
 {% end %}
 
