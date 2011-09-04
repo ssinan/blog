@@ -2,7 +2,7 @@
 
 {% block content %}
   {% for entry in entries %}
-    {{ modules.Entry(entry) }}
+    {% raw modules.Entry(entry) %}
   {% end %}
   <div><a href="/archive">{{ _("Archive") }}</a></div>
 {% end %}
