@@ -1,0 +1,13 @@
+body {
+    background: url('../img/grid-18px-masked.png');
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.sidebar-nav {
+    padding: 9px 0;
+}
+.label:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #777777;
+}
