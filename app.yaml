@@ -1,6 +1,6 @@
 application: saricasinan
-version: 7
-runtime: python
+version: 9
+runtime: python27
 api_version: 1
 
 handlers:
